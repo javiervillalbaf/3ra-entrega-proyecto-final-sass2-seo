@@ -1,0 +1,58 @@
+#contacto{
+    .formContacto {
+        display: flex;
+        background-image: url(https://images.unsplash.com/photo-1624289714790-abf07fdea970?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-direction: column;
+        align-items: center;
+        .form {
+            display: flex;
+            flex-direction: column;
+            width: 959px;
+            align-items: center;
+            height: 484px;
+            justify-content: space-around;
+            border: groove 2px;
+            border-radius: 25px;
+            margin: 27rem auto;
+            background-color: #21252996;
+            input{
+                max-width: 1000px;
+                border-radius: 7px;
+                background-color: #e7e7e7;
+                width: 460px;
+                height: 2rem;
+                &::placeholder {
+                    text-align: center;
+                }
+                &:focus{
+                    @extend %focusForm;
+                }
+                &[type=submit]{
+                    background-color: white;
+                    color: black;
+                    border: 1px;
+                    &:hover{
+                        background-color: black;
+                        color: white;
+                    }
+                }
+            }
+            textarea{
+                max-width: 1000px;
+                border-radius: 7px;
+                background-color: #e7e7e7;
+
+                &::placeholder {
+                    text-align: center;
+                    align-items: center;
+                }
+                
+                &:focus {
+                    @extend %focusForm;
+                }
+            }
+        }
+    } 
+}

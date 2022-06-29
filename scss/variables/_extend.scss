@@ -1,0 +1,11 @@
+%focusForm{
+    background-color: #9b9b9b;
+    transition: 1s;
+    color: white;
+    width: 450px;
+}
+
+@mixin fontStyle($colorPrincipal, $tipografiaPrincipal){
+    color: $colorPrincipal;
+    font-family: $tipografiaPrincipal;
+}

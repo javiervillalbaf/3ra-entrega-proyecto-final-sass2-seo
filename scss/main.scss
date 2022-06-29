@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo {
+    color: #b7b7b7;
+    padding: 1rem 0;
+    font-style: italic;
+}
+
+// VARIABLES
+
+@import './variables/colores';
+@import './variables/tipografia';
+@import './variables/extend';
+
+// SECCIONES
+@import './secciones/ayudar';
+@import './secciones/contacto';
+@import './secciones/footer';
+@import './secciones/galeria';
+@import './secciones/navbar';
+@import './secciones/index';
+@import './secciones/nosotros';
+@import './secciones/medias-queries';

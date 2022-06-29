@@ -1,0 +1,35 @@
+.footer{
+        background-color: #212529;
+        display: flex;
+        color: white;
+        height: 4.6rem;
+        align-items: center;
+        flex-direction: column;
+        
+    p {
+            padding: 1rem 0 0 0;
+            margin-bottom: 0;
+        }
+    
+    ul {
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding-right: 3.5rem;
+        padding-left: 3.5rem;
+        height: 33px;
+        font-size: 30px;
+        li {
+            margin-bottom: 1.5rem;
+            list-style: none;
+            padding: 5px;
+            .fa-brands {
+                color: white;
+                &:hover {
+                    color: rgb(139, 139, 139);
+                }
+            }
+        }
+    }  
+}
