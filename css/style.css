@@ -26,7 +26,21 @@
     grid-template-rows: 1fr; }
     #ayudar .mainAyudar .grillaAyudar .card {
       margin: 172px 100px 250px 100px;
-      width: 46rem; }
+      width: 46rem;
+      --bs-card-border-width: 2px;
+      border-color: black; }
+      #ayudar .mainAyudar .grillaAyudar .card-body {
+        color: white;
+        background-color: black; }
+      #ayudar .mainAyudar .grillaAyudar .card-img, #ayudar .mainAyudar .grillaAyudar .card-img-top {
+        border-top-left-radius: var(--bs-card-inner-border-radius), black;
+        border-top-right-radius: var(--bs-card-inner-border-radius), black; }
+      #ayudar .mainAyudar .grillaAyudar .card .btn-primary {
+        --bs-btn-color: black;
+        --bs-btn-bg: white;
+        --bs-btn-hover-color: white;
+        --bs-btn-hover-bg: #ffffff63;
+        border: solid black; }
 
 #contacto .formContacto {
   display: flex;
@@ -125,8 +139,7 @@
         transition: 5s; }
 
 .navbar-brand {
-  font-size: x-large;
-  font-size: 29px;
+  font-size: 2.5rem;
   margin-right: 0;
   margin-left: 3rem; }
   .navbar-brand:hover {
