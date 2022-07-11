@@ -8,12 +8,19 @@
             padding-top: 1rem;
         }
         .accordion {
-            max-width: 28%;
+            max-width: 65%;
             margin: 0 auto;
-            height: 83rem;
-            padding-top: 26rem;
+            height: 71rem;
+            padding-top: 13rem;
+            --bs-accordion-btn-bg:none;
+            --bs-accordion-color: white;
+            --bs-accordion-bg: #0000005c;
+            --bs-accordion-active-color: black;
+            --bs-accordion-btn-color: white;
+            --bs-accordion-btn-focus-border-color: none;
+            --bs-accordion-btn-focus-box-shadow: none;
             &-item {
-                padding: 2rem 0;
+                padding: 3rem 0;
             }
         }
     }
