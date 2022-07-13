@@ -25,7 +25,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr; }
     #ayudar .mainAyudar .grillaAyudar .card {
-      margin: 172px 100px 250px 100px;
+      margin: 99px 100px 199px 100px;
       width: 46rem;
       --bs-card-border-width: 2px;
       border-color: black; }
@@ -135,8 +135,8 @@
       max-width: 100%;
       border: solid 2px; }
       #galeria .mainGaleria .grillaGaleria img:hover {
-        filter: blur(1.7px);
-        transition: 5s; }
+        transform: scale(1.01);
+        filter: sepia(0.5); }
 
 .navbar-brand {
   font-size: 2.3rem;
@@ -166,12 +166,12 @@
     padding-top: 1rem; }
   #nosotros .mainNosotros .accordion {
     max-width: 65%;
-    margin: 0 auto;
+    margin: -73px auto;
     height: 71rem;
     padding-top: 13rem;
     --bs-accordion-btn-bg:none;
     --bs-accordion-color: white;
-    --bs-accordion-bg: #0000005c;
+    --bs-accordion-bg: #000000b5;
     --bs-accordion-active-color: black;
     --bs-accordion-btn-color: white;
     --bs-accordion-btn-focus-border-color: none;

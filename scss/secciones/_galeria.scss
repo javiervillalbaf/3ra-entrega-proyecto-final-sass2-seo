@@ -24,8 +24,8 @@
                 max-width: 100%;
                 border: solid 2px;
                 &:hover{
-                        filter: blur(1.7px);
-                        transition: 5s;
+                    transform: scale(1.01);
+                    filter: sepia(.5);
                 }
             }
         }

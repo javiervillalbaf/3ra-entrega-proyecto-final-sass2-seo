@@ -19,3 +19,5 @@ nosotros
 Cree la carpeta 'pages' para las secciones y deje el index por fuera de la carpeta
 
 Mejore algunos detalles del responsive mobile
+
+Complete el "alt" de las imagenes
