@@ -212,14 +212,19 @@
     margin-left: 30%;
     font-size: 5vw; }
   /* Contacto */
-  #contacto .formContacto .form {
-    width: 68%;
-    margin: 80px 0px;
-    height: 556px; }
-    #contacto .formContacto .form input {
-      width: 91%; }
-    #contacto .formContacto .form textarea {
-      width: 91%; }
+  #contacto .formContacto div {
+    flex-direction: column; }
+    #contacto .formContacto div .form {
+      width: 93%;
+      margin: 16px 16px;
+      height: 559px; }
+      #contacto .formContacto div .form input {
+        width: 91%; }
+      #contacto .formContacto div .form textarea {
+        width: 91%; }
+    #contacto .formContacto div iframe {
+      width: 96%;
+      margin: 3rem 0; }
   .titulo {
     font-size: 4vw;
     padding: 1rem 2.9rem; }

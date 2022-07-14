@@ -70,17 +70,24 @@
 
     #contacto{
         .formContacto{
-            .form {
-                width: 68%;
-                margin: 80px 0px;
-                height: 556px;
-                input{
-                    width: 91%;
+                div{
+                    flex-direction: column;
+                    .form {
+                        width: 93%; 
+                        margin: 16px 16px; 
+                        height: 559px;
+                    input{
+                        width: 91%;
+                    }
+                    textarea{
+                        width: 91%;
+                    }
                 }
-                textarea{
-                    width: 91%;
-                }
-            } 
+                    iframe {
+                    width: 96%;
+                    margin: 3rem 0;
+                } 
+            }
         }
     } 
     
