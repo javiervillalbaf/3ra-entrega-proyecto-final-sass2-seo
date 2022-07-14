@@ -9,13 +9,13 @@
         .form {
             display: flex;
             flex-direction: column;
-            width: 959px;
+            width: 784px;
             align-items: center;
-            height: 484px;
+            height: 604px;
             justify-content: space-around;
             border: groove 2px;
-            border-radius: 25px;
-            margin: 27rem auto;
+            border-radius: 2rem;
+            margin: 9rem 0;
             background-color: #21252996;
             input{
                 max-width: 1000px;
@@ -52,6 +52,13 @@
                 &:focus {
                     @extend %focusForm;
                 }
+            }
+        }
+        section{
+            iframe{
+                margin: 9rem 0;
+                padding-left: 1rem;
+                border-radius: 2rem;
             }
         }
     } 

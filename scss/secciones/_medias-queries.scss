@@ -21,18 +21,6 @@
             }
         }
     }
-
-
-    /* Contacto */
-
-    // #contacto{
-    //     .formContacto{
-    //         .form{
-    //         width: 522px;
-    //         margin: 80px 0px;
-    //         height: 556px;
-    //     } 
-    // }
 }
 
 @media (max-width:768px) {
@@ -94,12 +82,15 @@
                 }
             } 
         }
-    }
+    } 
+    
+    // general
 
     .titulo {
         font-size: 4vw;
+        padding: 1rem 2.9rem;
     }
-
+   
     /* Ayudar */
 
     #ayudar{

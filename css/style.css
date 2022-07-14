@@ -52,13 +52,13 @@
   #contacto .formContacto .form {
     display: flex;
     flex-direction: column;
-    width: 959px;
+    width: 784px;
     align-items: center;
-    height: 484px;
+    height: 604px;
     justify-content: space-around;
     border: groove 2px;
-    border-radius: 25px;
-    margin: 27rem auto;
+    border-radius: 2rem;
+    margin: 9rem 0;
     background-color: #21252996; }
     #contacto .formContacto .form input {
       max-width: 1000px;
@@ -82,6 +82,10 @@
       #contacto .formContacto .form textarea::placeholder {
         text-align: center;
         align-items: center; }
+  #contacto .formContacto section iframe {
+    margin: 9rem 0;
+    padding-left: 1rem;
+    border-radius: 2rem; }
 
 .footer {
   background-color: #212529;
@@ -187,8 +191,7 @@
   #nosotros .mainNosotros #accordionExample {
     max-width: 90%;
     height: 54rem;
-    padding-top: 9rem; }
-  /* Contacto */ }
+    padding-top: 9rem; } }
 
 @media (max-width: 768px) {
   #index .mainIndex {
@@ -218,7 +221,8 @@
     #contacto .formContacto .form textarea {
       width: 91%; }
   .titulo {
-    font-size: 4vw; }
+    font-size: 4vw;
+    padding: 1rem 2.9rem; }
   /* Ayudar */
   #ayudar .mainAyudar .grillaAyudar {
     grid-template-columns: 1fr; }
