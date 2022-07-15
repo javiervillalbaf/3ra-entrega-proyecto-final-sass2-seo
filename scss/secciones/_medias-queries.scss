@@ -9,16 +9,11 @@
             }
         }
     }
-
-    /* Nosotros */
-
-    #nosotros{
-        .mainNosotros{
-            #accordionExample{
-                max-width: 90%;
-                height: 54rem;
-                padding-top: 9rem;
-            }
+    
+    // NAVBAR
+    .navbar{
+        &-brand{
+            margin-left: 0rem;
         }
     }
 }
@@ -54,9 +49,10 @@
         .mainNosotros{
             #accordionExample{ 
                 max-width: 88%;
-                height: 52rem;
-                padding-top: 9rem;
-                
+                padding-top: 5rem;
+                padding-bottom: 5rem;
+                margin: 0 0 0 6%;
+                height: unset;
             }
             .hNosotros {
                 margin-left: 30%; 
